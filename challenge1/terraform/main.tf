@@ -18,4 +18,13 @@ module "ec2" {
   web_access_from_nat_pub_sg  = module.vpc.web_access_from_nat_pub_sg
   
 }
+      
+module "db" {
+  source                      = "./db"
+  private_subnet3             = module.vpc.outputprivatesubnet3
+  private_subnet4             = module.vpc.outputprivatesubnet4
+  out_rdssubnetgroup          = module.vpc.out_rdssubnetgroup
+  rdsmysqlsg                  = module.vpc.rdsmysqlsg
+  
+}
 
