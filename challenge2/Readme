@@ -1,1 +1,12 @@
+To view all categories of instance metadata from within a running instance, We can use the following IPv4 or IPv6 URIs.
+
+IPv4
+http://169.254.169.254/latest/meta-data/
+
+IPv6
+http://[fd00:ec2::254]/latest/meta-data/
+
+Get the top-level metadata items:
+
+
 
