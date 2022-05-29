@@ -6,7 +6,9 @@ approach, style and reproducibility.
 
 Approach :
 
-Starting from the left, I will be desiging the infrastuture with one VPC with 4 subnets with combination of private and public for various layers. In addition to that there will be a bastion host and a NAT gateway for the admins to have access to the infrastructure. I am also going to create a Auto scaling group across two availbality zones for fault tolerance and high availablity.
+Starting from the left, I will be desiging the infrastuture with one VPC with 4 subnets with combination of private and public for various layers. 
+In addition to that there will be a bastion host and a NAT gateway for the admins to have access to the infrastructure. 
+I will also going to create a Auto scaling group across two availbality zones for fault tolerance and high availablity.
 
 What we need :
 
@@ -18,3 +20,6 @@ What we need :
 6. ELB
 7. Auto Scaling group
 8 Bastion Host
+
+Tool use:
+Terraform
